@@ -1,0 +1,56 @@
+2025-04-02 10:43:16.958 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-02 10:43:17.426 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-02 10:43:17.615 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger - null null
+2025-04-02 10:43:17.816 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-02 10:43:17.819 -06:00 [INF] Hosting environment: Development
+2025-04-02 10:43:17.819 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-02 10:43:18.443 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.html - null null
+2025-04-02 10:43:18.466 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger - 301 null null 853.3099ms
+2025-04-02 10:43:18.588 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.html - 200 null text/html;charset=utf-8 145.6873ms
+2025-04-02 10:43:18.596 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - null null
+2025-04-02 10:43:18.599 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.css - null null
+2025-04-02 10:43:18.599 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - null null
+2025-04-02 10:43:18.631 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-04-02 10:43:18.631 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.css - 200 202 text/css 32.7672ms
+2025-04-02 10:43:18.632 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-02 10:43:18.638 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - 200 154948 text/css 39.1563ms
+2025-04-02 10:43:18.651 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.js - null null
+2025-04-02 10:43:18.651 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-02 10:43:18.654 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.js - 200 null application/javascript;charset=utf-8 10.0618ms
+2025-04-02 10:43:18.675 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-02 10:43:18.676 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-02 10:43:18.679 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 3.394ms
+2025-04-02 10:43:18.682 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 30.819ms
+2025-04-02 10:43:18.708 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-02 10:43:18.713 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-02 10:43:18.759 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - 200 1466741 text/javascript 160.819ms
+2025-04-02 10:43:18.789 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.1423ms
+2025-04-02 10:43:19.090 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-02 10:43:19.098 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - null null
+2025-04-02 10:43:19.099 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-02 10:43:19.099 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - 200 628 image/png 1.8086ms
+2025-04-02 10:43:19.099 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.6125ms
+2025-04-02 10:48:39.298 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "56a4cbc4654a466d864a32848a654c8b",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}

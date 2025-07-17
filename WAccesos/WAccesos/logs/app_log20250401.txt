@@ -1,0 +1,240 @@
+2025-04-01 09:07:28.519 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 48.4163 ms
+2025-04-01 09:52:16.553 -06:00 [INF] Encolando mensaje con UUID: f6b58f26ebc44f60ba9fb8f5a6ff53e4, Mensaje: {"Uuid":"f6b58f26ebc44f60ba9fb8f5a6ff53e4","Resource":{"Id":"9db7bb5eb0ee4f61a9e32b39da662536","Name":"Programas Especiales USA","ExternalId":"2","StartHour":"16:30","EndHour":"21:00"},"AccessPoint":{"Id":"488e75097265415b946f26951f51063b","Operation":2,"Mode":1},"Credential":{"Id":"7afec04bda1542b18b9d16500367c2b8","Beneficiary":{"Id":"91cbaa8dc1cd4f3c9caf78b4c048adcd","Name":"Fernando Gaitan Hernández","ExternalId":"3435"}}
+2025-04-01 09:52:16.852 -06:00 [INF] Publicando mensaje con Uuid: f6b58f26ebc44f60ba9fb8f5a6ff53e4
+2025-04-01 09:52:17.918 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, FECHA_REG, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA) VALUES (@Uuid, @Mensaje, GETDATE(), 'ENCOLADO', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA)
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:0776ba5b-3e9c-4b90-96c5-aef234d72962
+Error Number:8169,State:2,Class:16
+2025-04-01 09:52:18.031 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, FECHA_REG, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA) VALUES (@Uuid, @Mensaje, GETDATE(), 'ENCOLADO', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA)
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection2025-04-01 15:24:54.899 -06:00 [INF] HTTP GET /swagger responded 301 in 33.1339 ms
+2025-04-01 15:24:55.228 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 179.9687 ms
+2025-04-01 15:24:55.314 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 31.1685 ms
+2025-04-01 15:24:55.348 -06:00 [INF] HTTP GET /swagger/index.css responded 200 in 105.6856 ms
+2025-04-01 15:24:55.369 -06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 127.8132 ms
+2025-04-01 15:24:55.370 -06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 38.6939 ms
+2025-04-01 15:24:55.402 -06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 159.2924 ms
+2025-04-01 15:24:55.802 -06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.8518 ms
+2025-04-01 15:24:55.802 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 20.9474 ms
+2025-04-01 15:25:00.961 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 15:25:44.748 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, GETDATE(), 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:cd6f4559-3799-4b49-a9df-f9797def3850
+Error Number:110,State:1,Class:15
+2025-04-01 15:25:44.850 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, GETDATE(), 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:cd6f4559-3799-4b49-a9df-f9797def3850
+Error Number:110,State:1,Class:15
+2025-04-01 15:25:44.870 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 44007.1753 ms
+2025-04-01 15:28:34.891 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 15:30:48.213 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, GETDATE(), 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:cd6f4559-3799-4b49-a9df-f9797def3850
+Error Number:110,State:1,Class:15
+2025-04-01 15:30:48.215 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, GETDATE(), 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:cd6f4559-3799-4b49-a9df-f9797def3850
+Error Number:110,State:1,Class:15
+2025-04-01 15:30:48.218 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 133339.4774 ms
+2025-04-01 15:32:38.538 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 15:33:34.065 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, GETDATE(), 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:cd6f4559-3799-4b49-a9df-f9797def3850
+Error Number:110,State:1,Class:15
+2025-04-01 15:33:34.067 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, GETDATE(), 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlExcepti2025-04-01 15:34:19.443 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 82.2365 ms
+2025-04-01 15:34:24.238 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 15:36:43.391 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:251aad2f-e108-40d6-9f92-523950518086
+Error Number:8169,State:2,Class:16
+2025-04-01 15:36:43.474 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDat2025-04-01 15:41:50.899 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 84.2019 ms
+2025-04-01 15:41:59.508 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 15:42:43.735 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 24
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\WAccesos\WAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:7213bc88-dbe6-4a52-bf04-4a2065d84db4
+Error Number:8169,State:2,Class:16
+2025-04-01 15:42:43.812 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDat2025-04-01 15:47:16.391 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 110.4968 ms
+2025-04-01 15:51:55.928 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 15:51:56.222 -06:00 [INF] Publicando mensaje con Uuid: 4aa9588b6d8641f49627a59d8ff2ba64
+2025-04-01 15:54:07.733 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 131945.0795 ms
+2025-04-01 15:54:12.004 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'ENCOLADO', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation)
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation)
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros)
+ClientConnectionId:9fb2f1b4-84f4-4af4-ae6d-96ed3b0c6e5d
+Error Number:8169,State:2,Class:16
+2025-04-01 15:54:12.040 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'ENCOLADO', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation)
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation)
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros)
+ClientConnectionId:9fb2f1b4-84f4-4af4-ae6d-96ed3b0c6e5d
+Error Number:8169,State:2,Class:16
+2025-04-01 16:05:51.390 -06:00 [ERR] Faltan campos Obligatorios.
+2025-04-01 16:06:20.509 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE, @UUID_CREDENCIAL, @UUID_PERSONA, @NOMBRE_PERSONA, @ID_PERSONA, @STATUS_ACCESS_POINT, GETDATE())
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting from a character string to uniqueidentifier.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation)
+   at WAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation)
+   at WAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros)
+ClientConnectionId:95fa5e74-9486-446b-ba75-27b8d515de6a
+Error Number:8169,State:2,Class:16
+2025-04-01 16:06:20.522 -06:00 [ERR] Error ejecutando la consulta: INSERT INTO BITACORA_ACCESOS (DATOS, MENSAJE, ESTATUS, UUID_RECURSO_ACCESOS, NOMBRE_RECURSO, ID_RECURSO, HORA_INICIO, HORA_FINALIZACION, UUID_ACCESS_POINT_ACCESOS, OPERATION, MODE, UUID_CREDENCIAL, UUID_PERSONA, NOMBRE_PERSONA, ID_PERSONA, STATUS_ACCESS_POINT, FECHA_REG) VALUES (@Uuid, @Mensaje, 'RESPUESTA_ERRONEA', @UUID_RECURSO_ACCESOS, @NOMBRE_RECURSO, @ID_RECURSO, @HORA_INICIO, @HORA_FINALIZACION, @UUID_ACCESS_POINT_ACCESOS, @OPERATION, @MODE,

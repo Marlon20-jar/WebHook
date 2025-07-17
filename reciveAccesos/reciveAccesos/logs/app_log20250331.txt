@@ -1,0 +1,346 @@
+2025-03-31 13:57:38.396 -06:00 [INF] Suscrito a la cola AccesosResultadosCRM correctamente.
+2025-03-31 13:57:46.743 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 13:57:46.743 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 13:57:46.852 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 125.3086ms
+2025-03-31 13:57:46.890 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 166.4712ms
+2025-03-31 13:57:46.961 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 13:57:46.963 -06:00 [INF] Hosting environment: Development
+2025-03-31 13:57:46.963 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 13:57:46.992 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 13:57:47.152 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.4317ms
+2025-03-31 14:32:28.065 -06:00 [INF] Suscrito a la cola AccesosResultadosCRM correctamente.
+2025-03-31 14:32:35.441 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 14:32:35.441 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 14:32:35.540 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 116.7995ms
+2025-03-31 14:32:35.569 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.2598ms
+2025-03-31 14:32:35.635 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 14:32:35.637 -06:00 [INF] Hosting environment: Development
+2025-03-31 14:32:35.637 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 14:32:35.677 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 14:32:35.821 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.6368ms
+2025-03-31 14:56:06.911 -06:00 [INF] Suscrito a la cola AccesosResultadosCRM correctamente.
+2025-03-31 14:56:10.330 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 14:56:10.330 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 14:56:10.430 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 117.4869ms
+2025-03-31 14:56:10.467 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 156.2017ms
+2025-03-31 14:56:10.533 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 14:56:10.534 -06:00 [INF] Hosting environment: Development
+2025-03-31 14:56:10.534 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 14:56:10.576 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 14:56:10.721 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.0264ms
+2025-03-31 15:32:16.647 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 15:32:16.647 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 15:32:16.807 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 177.5171ms
+2025-03-31 15:32:16.840 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 15:32:16.842 -06:00 [INF] Hosting environment: Development
+2025-03-31 15:32:16.842 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 15:32:16.856 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 228.4321ms
+2025-03-31 15:32:16.959 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 15:32:17.071 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.7597ms
+2025-03-31 15:38:14.200 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 15:38:14.200 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 15:38:14.357 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 174.1768ms
+2025-03-31 15:38:14.389 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 15:38:14.390 -06:00 [INF] Hosting environment: Development
+2025-03-31 15:38:14.390 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 15:38:14.406 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 225.0701ms
+2025-03-31 15:38:14.485 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 15:38:14.571 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.1818ms
+2025-03-31 15:56:44.513 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 15:56:44.513 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 15:56:44.687 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 190.5996ms
+2025-03-31 15:56:44.719 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 15:56:44.721 -06:00 [INF] Hosting environment: Development
+2025-03-31 15:56:44.721 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 15:56:44.732 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 238.8936ms
+2025-03-31 15:56:44.821 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 15:56:44.923 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.8516ms
+2025-03-31 16:15:48.045 -06:00 [ERR] Error: IBus no está registrado correctamente.
+2025-03-31 16:16:08.016 -06:00 [INF] Conectando a RabbitMQ...
+2025-03-31 16:16:10.934 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-03-31 16:16:13.049 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 16:16:13.049 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 16:16:14.775 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 1742.1522ms
+2025-03-31 16:16:14.862 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "Gimnasio",
+    "ExternalId": "2",
+    "StartHour": null,
+    "EndHour": null
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "Pedro Salaz",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:16:27.966 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14934.4998ms
+2025-03-31 16:16:28.031 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 16:16:28.250 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 16:16:28.252 -06:00 [INF] Hosting environment: Development
+2025-03-31 16:16:28.252 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 16:16:34.517 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "Gimnasio",
+    "ExternalId": "2",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "Pedro Salaz",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:16:39.137 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "Gimnasio",
+    "ExternalId": "2",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "Pedro Salaz",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:16:40.533 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "Gimnasio",
+    "ExternalId": "2",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "Pedro Salaz",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:16:40.665 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12699.3915ms
+2025-03-31 16:24:18.178 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "",
+    "ExternalId": "2",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:28:03.385 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "",
+    "ExternalId": "2",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:29:31.451 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "b6902bd1-e405-4a1e-9730-b54d7a386a15",
+    "Name": "",
+    "ExternalId": "2",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195258e-5bc4-7729-9107-65d6c7f38d87",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "82cb866f-74e9-41e1-2e71-ea48187daac2",
+    "Beneficiary": {
+      "Id": "6520757d-98a5-4800-bcfc-9159dea4590b",
+      "Name": "",
+      "ExternalId": "1"
+    }
+  }
+}
+2025-03-31 16:38:49.397 -06:00 [ERR] Error: IBus no está registrado correctamente.
+2025-03-31 16:38:54.692 -06:00 [INF] Conectando a RabbitMQ...
+2025-03-31 16:38:56.900 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-03-31 16:38:59.243 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 16:38:59.243 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-03-31 16:38:59.388 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 160.4937ms
+2025-03-31 16:38:59.416 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 190.4237ms
+2025-03-31 16:38:59.481 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-31 16:38:59.482 -06:00 [INF] Hosting environment: Development
+2025-03-31 16:38:59.483 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-03-31 16:38:59.500 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-03-31 16:38:59.659 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.2399ms
+2025-03-31 16:44:25.181 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "9db7bb5eb0ee4f61a9e32b39da662536",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 1,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "Fernando Gaitan Hernández",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-03-31 16:44:28.806 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID : Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 16:44:39.611 -06:00 [ERR] Error procesando mensaje : Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 16:44:42.211 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID : Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 16:52:50.230 -06:00 [INF] Mensaje recibido: {
+  "Uuid": null,
+  "Resource": {
+    "Id": "9db7bb5eb0ee4f61a9e32b39da662536",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 2,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "Fernando Gaitan Hernández",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-03-31 16:53:13.347 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID : Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 16:53:20.086 -06:00 [ERR] Error procesando mensaje : Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 16:53:27.088 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID : Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 17:28:53.062 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "5bba9d6b24094f778c6b2fee3f13a6d3",
+  "Resource": {
+    "Id": "9db7bb5eb0ee4f61a9e32b39da662536",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 2,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "Fernando Gaitan Hernández",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-03-31 17:29:44.817 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID 5bba9d6b24094f778c6b2fee3f13a6d3: Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 17:29:54.232 -06:00 [ERR] Error procesando mensaje 5bba9d6b24094f778c6b2fee3f13a6d3: Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 17:29:56.921 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID 5bba9d6b24094f778c6b2fee3f13a6d3: Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 17:30:01.486 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "5bba9d6b24094f778c6b2fee3f13a6d3",
+  "Resource": {
+    "Id": "9db7bb5eb0ee4f61a9e32b39da662536",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 2,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "Fernando Gaitan Hernández",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-03-31 17:30:12.149 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID 5bba9d6b24094f778c6b2fee3f13a6d3: Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 17:30:18.233 -06:00 [ERR] Error procesando mensaje 5bba9d6b24094f778c6b2fee3f13a6d3: Error al insertar en WEBHOOK_ACCESOS
+2025-03-31 17:30:23.601 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID 5bba9d6b24094f778c6b2fee3f13a6d3: Error al insertar en WEBHOOK_ACCESOS

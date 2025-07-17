@@ -1,0 +1,49 @@
+2025-04-23 17:56:02.423 -06:00 [INF] Iniciando la aplicación...
+2025-04-23 17:56:02.508 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-04-23 17:56:03.588 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-23 17:56:03.880 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 17:56:03.954 -06:00 [INF] Suscripción a la cola AccesosFerCRM completada.
+2025-04-23 17:56:03.986 -06:00 [DBG] Hosting starting
+2025-04-23 17:56:04.175 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-23 17:56:04.180 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 17:56:04.220 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-04-23 17:56:04.221 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 17:56:04.221 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 17:56:04.221 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 17:56:04.256 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-23 17:56:04.257 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-23 17:56:04.288 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-23 17:56:04.288 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 17:56:04.390 -06:00 [DBG] Connection ID "18158513749902753817" disconnecting.
+2025-04-23 17:56:04.392 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 115.5339ms
+2025-04-23 17:56:04.418 -06:00 [DBG] Connection ID "18302628925093707794" disconnecting.
+2025-04-23 17:56:04.419 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 144.9867ms
+2025-04-23 17:56:04.508 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 17:56:04.509 -06:00 [INF] Hosting environment: Development
+2025-04-23 17:56:04.509 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-04-23 17:56:04.510 -06:00 [DBG] Hosting started
+2025-04-23 17:56:04.571 -06:00 [INF] Request starting HTTP/2 GET https://localho2025-04-23 18:03:12.713 -06:00 [INF] Iniciando la aplicación...
+2025-04-23 18:03:12.797 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-04-23 18:03:13.741 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-23 18:03:13.939 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 18:03:14.009 -06:00 [INF] Suscripción a la cola AccesosFerCRM completada.
+2025-04-23 18:03:14.044 -06:00 [DBG] Hosting starting
+2025-04-23 18:03:14.252 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-23 18:03:14.257 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 18:03:14.275 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-04-23 18:03:14.276 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 18:03:14.276 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 18:03:14.276 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 18:03:14.313 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-23 18:03:14.314 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-23 18:03:14.348 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 18:03:14.348 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-23 18:03:14.454 -06:00 [DBG] Connection ID "18374686501951766563" disconnecting.
+2025-04-23 18:03:14.457 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 119.738ms
+2025-04-23 18:03:14.495 -06:00 [DBG] Connection ID "18158513719837982727" disconnecting.
+2025-04-23 18:03:14.495 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 161.3968ms
+2025-04-23 18:03:14.580 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 18:03:14.581 -06:00 [INF] Hosting environment: Development
+2025-04-23 18:03:14.581 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-04-23 18:03:14.582 -06:00 [DBG] Hosting started
+2025-04-23 18:03:14.623 -06:00 [INF] Request starting HTTP/2 GET https://localhos

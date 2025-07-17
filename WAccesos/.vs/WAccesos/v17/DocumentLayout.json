@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mhernandez\\Downloads\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\controllers\\accesoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\controllers\\accesoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\models\\respaccesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\models\\respaccesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\models\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\models\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\publisheraccesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\publisheraccesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\models\\respuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\models\\respuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|c:\\users\\mhernandez\\documents\\waccesos\\waccesos\\waccesos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4293CA67-9779-4F81-8862-91FD2F6DA78F}|WAccesos\\WAccesos.csproj|solutionrelative:waccesos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Downloads\\Web.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\Web.config",
+              "ToolTip": "C:\\Users\\mhernandez\\Downloads\\Web.config",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\Web.config",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAMwPQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-27T17:09:26.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublisherAccesos.cs",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\PublisherAccesos.cs",
+              "RelativeDocumentMoniker": "WAccesos\\PublisherAccesos.cs",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\PublisherAccesos.cs",
+              "RelativeToolTip": "WAccesos\\PublisherAccesos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:11:56.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccesosController.cs",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Controllers\\AccesosController.cs",
+              "RelativeDocumentMoniker": "WAccesos\\Controllers\\AccesosController.cs",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Controllers\\AccesosController.cs",
+              "RelativeToolTip": "WAccesos\\Controllers\\AccesosController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwJoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T23:52:14.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RespAccesos.cs",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Models\\RespAccesos.cs",
+              "RelativeDocumentMoniker": "WAccesos\\Models\\RespAccesos.cs",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Models\\RespAccesos.cs",
+              "RelativeToolTip": "WAccesos\\Models\\RespAccesos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:40:41.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConexionSQL.cs",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Models\\ConexionSQL.cs",
+              "RelativeDocumentMoniker": "WAccesos\\Models\\ConexionSQL.cs",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Models\\ConexionSQL.cs",
+              "RelativeToolTip": "WAccesos\\Models\\ConexionSQL.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T19:18:37.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\appsettings.json",
+              "RelativeDocumentMoniker": "WAccesos\\appsettings.json",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\appsettings.json",
+              "RelativeToolTip": "WAccesos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T00:09:55.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Respuesta.cs",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Models\\Respuesta.cs",
+              "RelativeDocumentMoniker": "WAccesos\\Models\\Respuesta.cs",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Models\\Respuesta.cs",
+              "RelativeToolTip": "WAccesos\\Models\\Respuesta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:09:07.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Program.cs",
+              "RelativeDocumentMoniker": "WAccesos\\Program.cs",
+              "ToolTip": "C:\\Users\\mhernandez\\Documents\\WAccesos\\WAccesos\\WAccesos\\Program.cs",
+              "RelativeToolTip": "WAccesos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T23:29:44.121Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

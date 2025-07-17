@@ -1,0 +1,188 @@
+2025-04-03 10:29:43.016 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-03 10:29:43.499 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-03 10:29:43.964 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 10:29:43.964 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-03 10:29:44.106 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 154.8192ms
+2025-04-03 10:29:44.192 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 10:29:44.194 -06:00 [INF] Hosting environment: Development
+2025-04-03 10:29:44.194 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-03 10:29:44.708 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 766.3228ms
+2025-04-03 10:29:44.779 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-03 10:29:44.844 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.608ms
+2025-04-03 10:32:44.437 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "7bda5d04baef45af80aa3a5714e58843",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}
+2025-04-03 10:33:47.088 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "4b9bfc62ee084032a74bd0a7944fa3ea",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}
+2025-04-03 10:33:49.154 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "cfc0d8ac63dc4736badfe2cfb6613962",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}
+2025-04-03 10:33:51.286 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "e61a4fdeb92546e88aa612dd9b852985",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}
+2025-04-03 15:05:50.822 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-03 15:05:51.196 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-03 15:05:51.585 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 15:05:51.585 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-03 15:05:51.729 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 162.4051ms
+2025-04-03 15:05:51.769 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 205.2225ms
+2025-04-03 15:05:51.804 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 15:05:51.815 -06:00 [INF] Hosting environment: Development
+2025-04-03 15:05:51.815 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-03 15:05:51.852 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-03 15:05:51.984 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.7487ms
+2025-04-03 15:26:47.449 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-03 15:26:47.863 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-03 15:26:48.099 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 15:26:48.099 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-03 15:26:48.205 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 136.7583ms
+2025-04-03 15:26:48.240 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 174.3883ms
+2025-04-03 15:26:48.317 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 15:26:48.327 -06:00 [INF] Hosting environment: Development
+2025-04-03 15:26:48.327 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-03 15:26:48.345 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-03 15:26:48.507 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.9557ms
+2025-04-03 15:31:33.166 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "8c9bfda6e4744a3d8b2970b7b815589f",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}
+2025-04-03 15:32:16.790 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-03 15:32:17.139 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-03 15:32:17.407 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-03 15:32:17.407 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-03 15:32:17.585 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 197.0385ms
+2025-04-03 15:32:17.555 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 163.3401ms
+2025-04-03 15:32:17.702 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-03 15:32:17.849 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.6789ms
+2025-04-03 15:32:17.850 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-03 15:32:17.859 -06:00 [INF] Hosting environment: Development
+2025-04-03 15:32:17.859 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-03 15:42:08.999 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "e8267fc647ef452a8496b97d164b4fa3",
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}

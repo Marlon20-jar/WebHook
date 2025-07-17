@@ -1,0 +1,115 @@
+2025-04-04 11:48:44.515 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-04 11:48:46.871 -06:00 [INF] Suscripción a la cola AccesosFerCRM completada.
+2025-04-04 11:48:51.144 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-04 11:48:51.144 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-04 11:48:51.247 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 118.895ms
+2025-04-04 11:48:51.352 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-04 11:48:51.362 -06:00 [INF] Hosting environment: Development
+2025-04-04 11:48:51.362 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-04 11:48:51.430 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 304.5016ms
+2025-04-04 11:48:51.548 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-04 11:48:51.624 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.7857ms
+2025-04-04 11:56:49.016 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "d0a78b8c6f124b1ca14e6af88f1a1478",
+  "isEntrance": false,
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "TEST_PROGRAMA_SOCIAL_MARLON_10/03/2025",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 2,
+    "Mode": 1,
+    "active": true,
+    "tenantId": "bce13f3c-825e-403a-bf6e-7a9653245683"
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}
+2025-04-04 11:57:11.716 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "d0a78b8c6f124b1ca14e6af88f1a1478",
+  "isEntrance": false,
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "TEST_PROGRAMA_SOCIAL_MARLON_10/03/2025",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 2,
+    "Mode": 1,
+    "active": true,
+    "tenantId": "bce13f3c-825e-403a-bf6e-7a9653245683"
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}
+2025-04-04 12:03:03.786 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "875b918ec9d849cbb413411e8678c39b",
+  "isEntrance": true,
+  "Resource": {
+    "Id": "019580f1-372e-7f61-8dd7-9464d174a51d",
+    "Name": "PRUEBA_PROGRAMA SOCIAL 2025",
+    "ExternalId": "7298",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ee61-3f2a-7c9a-82dc-d0372a9de6d3",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true,
+    "tenantId": "bce13f3c-825e-403a-bf6e-7a9653245683"
+  },
+  "Credential": {
+    "Id": "ca0efd03-63a0-4346-8f7e-412a4b5054b4",
+    "Beneficiary": {
+      "Id": "fe069800-e1ac-4102-98b3-089e3d02b650",
+      "Name": "PINK GUZMAN ALFREDO YUJI",
+      "ExternalId": "5616131"
+    }
+  }
+}
+2025-04-04 12:04:51.468 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "e11c1b2c28744f8db0001628bc8aad3f",
+  "isEntrance": false,
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "TEST_PROGRAMA_SOCIAL_MARLON_10/03/2025",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 2,
+    "Mode": 1,
+    "active": false,
+    "tenantId": "bce13f3c-825e-403a-bf6e-7a9653245683"
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}

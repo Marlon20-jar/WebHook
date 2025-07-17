@@ -1,0 +1,16 @@
+2025-03-26 17:50:15.778 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.html - null null
+2025-03-26 17:50:15.971 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 17:50:15.980 -06:00 [INF] Hosting environment: Development
+2025-03-26 17:50:15.981 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\WAccesos\WAccesos
+2025-03-26 17:50:16.326 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 212.0438 ms
+2025-03-26 17:50:16.364 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.js - null null
+2025-03-26 17:50:16.364 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_vs/browserLink - null null
+2025-03-26 17:50:16.364 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-26 17:50:16.367 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.html - 200 null text/html;charset=utf-8 614.496ms
+2025-03-26 17:50:16.386 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 20.1526 ms
+2025-03-26 17:50:16.425 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.js - 200 null application/javascript;charset=utf-8 62.661ms
+2025-03-26 17:50:16.426 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 25.8696ms
+2025-03-26 17:50:16.498 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.4642ms
+2025-03-26 17:50:16.589 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - null null
+2025-03-26 17:50:16.602 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.7915 ms
+2025-03-26 17:50:16.602 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.0374ms

@@ -1,0 +1,32 @@
+2025-04-14 18:06:37.637 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-14 18:06:38.084 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-14 18:06:38.271 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger - null null
+2025-04-14 18:06:38.479 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-14 18:06:38.488 -06:00 [INF] Hosting environment: Development
+2025-04-14 18:06:38.489 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-04-14 18:06:39.157 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.html - null null
+2025-04-14 18:06:39.161 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger - 301 null null 907.4909ms
+2025-04-14 18:06:39.333 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.html - 200 null text/html;charset=utf-8 177.5096ms
+2025-04-14 18:06:39.393 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.css - null null
+2025-04-14 18:06:39.393 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-14 18:06:39.393 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-14 18:06:39.393 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - null null
+2025-04-14 18:06:39.413 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - null null
+2025-04-14 18:06:39.431 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-14 18:06:39.447 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.js - null null
+2025-04-14 18:06:39.449 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.js - 200 null application/javascript;charset=utf-8 2.8162ms
+2025-04-14 18:06:39.452 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 56.2466ms
+2025-04-14 18:06:39.498 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-14 18:06:39.498 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-14 18:06:39.498 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-04-14 18:06:39.499 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.css - 200 202 text/css 159.8963ms
+2025-04-14 18:06:39.547 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 116.7445ms
+2025-04-14 18:06:39.547 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - 200 154948 text/css 153.7292ms
+2025-04-14 18:06:39.563 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-14 18:06:39.595 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 201.5005ms
+2025-04-14 18:06:39.606 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - 200 1466741 text/javascript 192.6407ms
+2025-04-14 18:06:39.954 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-14 18:06:39.968 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.7943ms
+2025-04-14 18:06:39.969 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - null null
+2025-04-14 18:06:39.969 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-14 18:06:39.970 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - 200 628 image/png 1.3097ms

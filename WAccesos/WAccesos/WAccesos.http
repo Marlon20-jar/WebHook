@@ -1,0 +1,6 @@
+@WAccesos_HostAddress = http://localhost:5294
+
+GET {{WAccesos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

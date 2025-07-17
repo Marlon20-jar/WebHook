@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Compilados\ReciveAccesos</_PublishTargetUrl>
+    <History>True|2025-06-20T15:48:41.3849445Z||;True|2025-04-24T09:21:36.7331774-06:00||;True|2025-04-23T18:45:40.7032069-06:00||;True|2025-04-23T18:05:25.1728953-06:00||;True|2025-04-23T18:05:02.4311017-06:00||;False|2025-04-23T18:04:03.0559863-06:00||;False|2025-04-23T18:01:46.0633883-06:00||;True|2025-04-23T14:22:43.8256859-06:00||;True|2025-04-04T12:15:24.3772053-06:00||;True|2025-04-03T15:08:36.9519028-06:00||;True|2025-04-02T14:16:43.7581179-06:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

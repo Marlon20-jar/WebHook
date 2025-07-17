@@ -1,0 +1,254 @@
+2025-04-22 09:47:26.921 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.html - null null
+2025-04-22 09:47:26.997 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-22 09:47:27.015 -06:00 [INF] Hosting environment: Development
+2025-04-22 09:47:27.015 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\WAccesos\WAccesos
+2025-04-22 09:47:27.665 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/swagger-ui.css - null null
+2025-04-22 09:47:27.665 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.css - null null
+2025-04-22 09:47:27.665 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/swagger-ui-bundle.js - null null
+2025-04-22 09:47:27.597 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 258.8631 ms
+2025-04-22 09:47:27.715 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.html - 200 null text/html;charset=utf-8 813.2744ms
+2025-04-22 09:47:27.730 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-04-22 09:47:27.730 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-22 09:47:27.731 -06:00 [INF] HTTP GET /swagger/index.css responded 200 in 64.8040 ms
+2025-04-22 09:47:27.731 -06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 64.8577 ms
+2025-04-22 09:47:27.732 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.css - 200 202 text/css 79.0584ms
+2025-04-22 09:47:27.734 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/swagger-ui.css - 200 154948 text/css 121.8643ms
+2025-04-22 09:47:27.735 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-22 09:47:27.736 -06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 69.0867 ms
+2025-04-22 09:47:27.740 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-22 09:47:27.741 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.js - null null
+2025-04-22 09:47:27.745 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 3.1340 ms
+2025-04-22 09:47:27.747 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.js - 200 null application/javascript;charset=utf-8 6.3464ms
+2025-04-22 09:47:27.749 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-22 09:47:27.749 -06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 6.5223 ms
+2025-04-22 09:47:27.770 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-22 09:47:27.777 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 5.3554ms
+2025-04-22 09:47:27.789 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 47.0414ms
+2025-04-22 09:47:27.824 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_vs/browserLink - null null
+2025-04-22 09:47:27.824 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/swagger-ui-bundle.js - 200 1466741 text/javascript 158.4197ms
+2025-04-22 09:47:27.910 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.9647ms
+2025-04-22 09:47:28.238 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - null null
+2025-04-22 09:47:28.250 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/favicon-32x32.png - null null
+2025-04-22 09:47:28.252 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-22 09:47:28.252 -06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.7794 ms
+2025-04-22 09:47:28.252 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/favicon-32x32.png - 200 628 image/png 2.5307ms
+2025-04-22 09:47:28.254 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.2959 ms
+2025-04-22 09:47:28.255 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.3967ms
+2025-04-22 10:27:46.865 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1286
+2025-04-22 10:27:46.906 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:27:46.956 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 10:27:48.111 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 10:27:48.486 -06:00 [INF] Mensaje publicado con éxito: 875219b05d4c49de8ccb1a4c4e6ad18a
+2025-04-22 10:27:48.532 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 10:27:48.542 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 10:27:48.554 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 1591.3264ms
+2025-04-22 10:27:48.555 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:27:48.557 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 1690.6272 ms
+2025-04-22 10:27:48.559 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 1695.8153ms
+2025-04-22 10:38:42.508 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1286
+2025-04-22 10:38:42.510 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:38:42.511 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 10:38:42.591 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 10:38:42.626 -06:00 [INF] Mensaje publicado con éxito: de4e339ff9954cb8ab4dcdab23352111
+2025-04-22 10:38:42.628 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 10:38:42.629 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 10:38:42.629 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 118.4232ms
+2025-04-22 10:38:42.630 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:38:42.630 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 121.0796 ms
+2025-04-22 10:38:42.630 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 122.8782ms
+2025-04-22 10:43:47.331 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1286
+2025-04-22 10:43:47.331 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:43:47.332 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 10:43:47.394 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 10:43:47.427 -06:00 [INF] Mensaje publicado con éxito: f4e7eba1215a4325899ae42715f35e78
+2025-04-22 10:43:47.429 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 10:43:47.429 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 10:43:47.430 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 97.8508ms
+2025-04-22 10:43:47.430 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:43:47.430 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 98.7954 ms
+2025-04-22 10:43:47.430 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 99.986ms
+2025-04-22 10:47:53.230 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1286
+2025-04-22 10:47:53.231 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:47:53.231 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 10:47:53.288 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 10:47:53.334 -06:00 [INF] Mensaje publicado con éxito: 3ae0f0b61d3f4d09ae22b65820a72802
+2025-04-22 10:47:53.336 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 10:47:53.337 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 10:47:53.337 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 106.1124ms
+2025-04-22 10:47:53.338 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:47:53.338 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 106.8541 ms
+2025-04-22 10:47:53.338 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 107.9418ms
+2025-04-22 10:53:07.898 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1286
+2025-04-22 10:53:07.898 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:53:07.899 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 10:53:07.956 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 10:53:07.995 -06:00 [INF] Mensaje publicado con éxito: 9f49a0dd2ab74948ab989e9e2c536275
+2025-04-22 10:53:07.997 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 10:53:07.997 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 10:53:07.998 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 98.9071ms
+2025-04-22 10:53:07.998 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 10:53:07.998 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 99.6483 ms
+2025-04-22 10:53:07.999 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 100.6645ms
+2025-04-22 11:15:42.018 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1331
+2025-04-22 11:15:42.019 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 11:15:42.019 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 11:15:42.129 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 11:15:42.167 -06:00 [INF] Mensaje publicado con éxito: 8ccd99c4877d4a2025-04-22 14:32:23.519 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-22 14:32:23.519 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_vs/browserLink - null null
+2025-04-22 14:32:23.620 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-22 14:32:23.635 -06:00 [INF] Hosting environment: Development
+2025-04-22 14:32:23.636 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\WAccesos\WAccesos
+2025-04-22 14:32:23.759 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 262.2164ms
+2025-04-22 14:32:23.801 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_vs/browserLink - 200 null text/javascript; charset=UTF-8 307.3781ms
+2025-04-22 14:32:23.887 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - null null
+2025-04-22 14:32:23.962 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 57.7859 ms
+2025-04-22 14:32:23.967 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.9784ms
+2025-04-22 14:32:42.685 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1322
+2025-04-22 14:32:42.699 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:32:42.733 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 14:32:43.759 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 14:32:44.091 -06:00 [INF] Mensaje publicado con éxito: 802f01fbc27b4f148cd3e286cb87230a
+2025-04-22 14:32:44.132 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 14:32:44.145 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 14:32:44.156 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 1417.2682ms
+2025-04-22 14:32:44.157 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:32:44.161 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 1474.8672 ms
+2025-04-22 14:32:44.164 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 1479.5433ms
+2025-04-22 14:37:46.815 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1322
+2025-04-22 14:37:46.819 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:37:46.819 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 14:37:46.899 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 14:37:46.946 -06:00 [INF] Mensaje publicado con éxito: 27e8649a6474422682c7c23828196697
+2025-04-22 14:37:46.949 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 14:37:46.950 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 14:37:46.951 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 131.5305ms
+2025-04-22 14:37:46.951 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:37:46.951 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 134.3113 ms
+2025-04-22 14:37:46.952 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 136.8525ms
+2025-04-22 14:46:43.153 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1322
+2025-04-22 14:46:43.154 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:46:43.155 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 14:46:43.240 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 14:46:43.279 -06:00 [INF] Mensaje publicado con éxito: 48be4f188aab4df983a6f4a744dbe30c
+2025-04-22 14:46:43.281 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 14:46:43.281 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 14:46:43.282 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 126.8923ms
+2025-04-22 14:46:43.282 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:46:43.282 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 127.8349 ms
+2025-04-22 14:46:43.282 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 129.0789ms
+2025-04-22 14:51:37.685 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1322
+2025-04-22 14:51:37.686 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:51:37.686 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 14:51:37.744 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 14:51:37.776 -06:00 [INF] Mensaje publicado con éxito: 3b5efedc946449358a954d4a867738b8
+2025-04-22 14:51:37.778 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 14:51:37.778 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 14:51:37.779 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 92.5103ms
+2025-04-22 14:51:37.779 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 14:51:37.779 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 93.3214 ms
+2025-04-22 14:51:37.779 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 94.9104ms
+2025-04-22 15:05:45.154 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1322
+2025-04-22 15:05:45.155 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:05:45.156 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 15:05:45.236 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 15:05:45.278 -06:00 [INF] Mensaje publicado con éxito: e4ca2a7d0d5b4240a529e0e9468b1681
+2025-04-22 15:05:45.279 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 15:05:45.280 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 15:05:45.280 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 124.5533ms
+2025-04-22 15:05:45.281 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:05:45.281 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 125.8267 ms
+2025-04-22 15:05:45.281 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 127.8405ms
+2025-04-22 15:09:04.394 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1322
+2025-04-22 15:09:04.395 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:09:04.395 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 15:09:04.452 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 15:09:04.489 -06:00 [INF] Mensaje publicado con éxito: 095951bde6f6438a99a3f5f8ecd4a4f6
+2025-04-22 15:09:04.491 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 15:09:04.491 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 15:09:04.492 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 96.3652ms
+2025-04-22 15:09:04.492 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:09:04.492 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 97.3972 ms
+2025-04-22 15:09:04.492 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 98.9329ms
+2025-04-22 15:22:33.632 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 15:22:33.633 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:22:33.634 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 15:22:33.721 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 15:22:33.760 -06:00 [INF] Mensaje publicado con éxito: 8d94855d09c74ca5b75adc5c1618e738
+2025-04-22 15:22:33.761 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 15:22:33.761 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 15:22:33.762 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 127.6859ms
+2025-04-22 15:22:33.762 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:22:33.762 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 129.0517 ms
+2025-04-22 15:22:33.763 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 130.3403ms
+2025-04-22 15:48:11.324 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 15:48:11.325 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 15:48:11.325 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 15:48:11.404 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 15:48:11.442 -06:00 [INF] Mensaje publicado con éxito: fc60716c690e4aa094e18449cacf1337
+2025-04-22 15:48:11.444 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 15:48:11.444 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 15:48:11.445 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 119.7711ms
+2025-04-22 15:48:11.445 -06:00 [INF] Executed endpoint 'WA2025-04-22 17:41:55.915 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-22 17:41:55.915 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/_vs/browserLink - null null
+2025-04-22 17:41:55.984 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-22 17:41:56.006 -06:00 [INF] Hosting environment: Development
+2025-04-22 17:41:56.006 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\WAccesos\WAccesos
+2025-04-22 17:41:56.137 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 240.6501ms
+2025-04-22 17:41:56.184 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/_vs/browserLink - 200 null text/javascript; charset=UTF-8 288.0279ms
+2025-04-22 17:41:56.268 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - null null
+2025-04-22 17:41:56.334 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 50.6377 ms
+2025-04-22 17:41:56.339 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.3579ms
+2025-04-22 17:42:08.449 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 17:42:08.464 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 17:42:08.497 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 17:42:09.546 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 17:42:09.907 -06:00 [INF] Mensaje publicado con éxito: 0b690738c10e47239299cdc86a026775
+2025-04-22 17:42:09.945 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 17:42:09.958 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 17:42:09.970 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 1466.6367ms
+2025-04-22 17:42:09.971 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 17:42:09.973 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 1523.3716 ms
+2025-04-22 17:42:09.976 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 1527.0748ms
+2025-04-22 17:44:05.437 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 17:44:05.441 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 17:44:05.442 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 17:44:05.554 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 17:44:05.592 -06:00 [INF] Mensaje publicado con éxito: f63c9abf3f7c4ee582ad64ae4cd7d5b7
+2025-04-22 17:44:05.595 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 17:44:05.595 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 17:44:05.596 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 154.2977ms
+2025-04-22 17:44:05.596 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 17:44:05.596 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 157.0638 ms
+2025-04-22 17:44:05.597 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 160.0469ms
+2025-04-22 18:26:26.152 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 18:26:26.154 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 18:26:26.155 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 18:26:26.248 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 18:26:26.287 -06:00 [INF] Mensaje publicado con éxito: 3c39a8356e484558b3b2d76cc00b5cc0
+2025-04-22 18:26:26.289 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 18:26:26.289 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 18:26:26.290 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 134.9628ms
+2025-04-22 18:26:26.290 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 18:26:26.290 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 137.0300 ms
+2025-04-22 18:26:26.291 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 140.2247ms
+2025-04-22 18:32:44.835 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 18:32:44.836 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 18:32:44.836 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 18:32:44.897 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 18:32:44.946 -06:00 [INF] Mensaje publicado con éxito: 7da87cf2d3914fd0894969c60fad50c8
+2025-04-22 18:32:44.948 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 18:32:44.949 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 18:32:44.950 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 113.3184ms
+2025-04-22 18:32:44.950 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 18:32:44.950 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 114.5918 ms
+2025-04-22 18:32:44.950 -06:00 [INF] Request finished HTTP/1.1 POST https://localhost:44316/api/Accesos - 200 null application/json; charset=utf-8 115.9194ms
+2025-04-22 18:33:05.521 -06:00 [INF] Request starting HTTP/1.1 POST https://localhost:44316/api/Accesos - application/json 1324
+2025-04-22 18:33:05.522 -06:00 [INF] Executing endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 18:33:05.522 -06:00 [INF] Route matched with {action = "Post", controller = "Accesos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WAccesos.Models.Respuesta]] Post(WAccesos.Models.AccesoRequest) on controller WAccesos.Controllers.AccesosController (WAccesos).
+2025-04-22 18:33:05.592 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-22 18:33:05.636 -06:00 [INF] Mensaje publicado con éxito: a28e619a0aa342c6b587d62b399fa3a5
+2025-04-22 18:33:05.638 -06:00 [INF] Se pasaron al reciveAccesos
+2025-04-22 18:33:05.638 -06:00 [INF] Executing OkObjectResult, writing value of type 'WAccesos.Models.Respuesta'.
+2025-04-22 18:33:05.639 -06:00 [INF] Executed action WAccesos.Controllers.AccesosController.Post (WAccesos) in 116.7639ms
+2025-04-22 18:33:05.639 -06:00 [INF] Executed endpoint 'WAccesos.Controllers.AccesosController.Post (WAccesos)'
+2025-04-22 18:33:05.639 -06:00 [INF] HTTP POST /api/Accesos responded 200 in 117.5238 ms

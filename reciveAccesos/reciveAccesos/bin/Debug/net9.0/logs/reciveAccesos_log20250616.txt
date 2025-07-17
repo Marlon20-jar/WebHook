@@ -1,0 +1,483 @@
+2025-06-16 17:16:53.832 -06:00 [INF] Iniciando la aplicación...
+2025-06-16 17:16:53.925 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-06-16 17:17:04.595 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-16 17:17:05.057 -06:00 [INF] Esperando mensajes de la cola...
+2025-06-16 17:17:07.307 -06:00 [DBG] Hosting starting
+2025-06-16 17:17:09.146 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-16 17:17:09.152 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-16 17:17:09.156 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-06-16 17:17:09.163 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-16 17:17:09.163 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-16 17:17:09.163 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-16 17:17:09.207 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-16 17:17:09.208 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-16 17:17:09.252 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger - null null
+2025-06-16 17:17:09.279 -06:00 [INF] 📩 Recibido: b4c578c191f44fa0846cf59b2f682924
+2025-06-16 17:17:09.279 -06:00 [INF] 📩 Recibido: 38b407e6b50a4dcfaf88d297bed1ff54
+2025-06-16 17:17:09.279 -06:00 [INF] 📩 Recibido: 408444da051345c7a4675fac5e7ccf80
+2025-06-16 17:17:09.279 -06:00 [INF] 📩 Recibido: e0dce2ce371e41bebd9eb5a0fd739b91
+2025-06-16 17:17:09.279 -06:00 [INF] 📩 Recibido: e3667b9e8f484898aae240880c55c37e
+2025-06-16 17:17:35.401 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-16 17:17:35.402 -06:00 [INF] Hosting environment: Development
+2025-06-16 17:17:35.402 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-06-16 17:17:35.402 -06:00 [DBG] Hosting started
+2025-06-16 17:17:35.471 -06:00 [DBG] No candidates found for the request path '/swagger'
+2025-06-16 17:17:35.472 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:35.824 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.html - null null
+2025-06-16 17:17:35.824 -06:00 [DBG] Connection ID "18302628929388675209" disconnecting.
+2025-06-16 17:17:35.830 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-16 17:17:35.831 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:35.851 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger - 301 null null 26615.3642ms
+2025-06-16 17:17:36.032 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-06-16 17:17:36.035 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-16 17:17:36.051 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-06-16 17:17:36.051 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-16 17:17:36.052 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.html - 200 null text/html;charset=utf-8 228.2711ms
+2025-06-16 17:17:36.061 -06:00 [DBG] Connection ID "18302628890733969506" disconnecting.
+2025-06-16 17:17:36.077 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - null null
+2025-06-16 17:17:36.077 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.css - null null
+2025-06-16 17:17:36.078 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - null null
+2025-06-16 17:17:36.078 -06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-06-16 17:17:36.078 -06:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2025-06-16 17:17:36.078 -06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-06-16 17:17:36.078 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:36.078 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:36.078 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:36.120 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-06-16 17:17:36.120 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-16 17:17:36.122 -06:00 [DBG] Connection ID "18158513745607786507" disconnecting.
+2025-06-16 17:17:36.121 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.css - 200 202 text/css 51.3807ms
+2025-06-16 17:17:36.123 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-16 17:17:36.124 -06:00 [DBG] Connection ID "18158513706953080860" disconnecting.
+2025-06-16 17:17:36.124 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - 200 154948 text/css 54.3028ms
+2025-06-16 17:17:42.469 -06:00 [DBG] Connection ID "18374686527721570378" disconnecting.
+2025-06-16 17:17:42.511 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-16 17:17:42.511 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - 200 1466741 text/javascript 6433.1988ms
+2025-06-16 17:17:42.512 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-16 17:17:42.512 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-06-16 17:17:42.512 -06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-06-16 17:17:42.512 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.js - null null
+2025-06-16 17:17:42.512 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:42.512 -06:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-06-16 17:17:42.512 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:42.515 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.js - 200 null application/javascript;charset=utf-8 2.9664ms
+2025-06-16 17:17:42.515 -06:00 [DBG] Connection ID "18230571318170878140" disconnecting.
+2025-06-16 17:17:42.516 -06:00 [DBG] Connection ID "18158513724132950019" disconnecting.
+2025-06-16 17:17:42.516 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-16 17:17:42.518 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 3.8641ms
+2025-06-16 17:17:42.522 -06:00 [DBG] Connection ID "18302628929388675211" disconnecting.
+2025-06-16 17:17:42.537 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 25.4728ms
+2025-06-16 17:17:45.612 -06:00 [DBG] Connection ID "18086456130095022081" disconnecting.
+2025-06-16 17:17:45.620 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3107.9068ms
+2025-06-16 17:17:45.647 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.647 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.647 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.647 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.647 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.673 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.673 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.673 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.673 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.673 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:17:45.723 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-06-16 17:17:45.723 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-16 17:17:45.723 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:45.734 -06:00 [DBG] Connection ID "18230571326760812651" disconnecting.
+2025-06-16 17:17:45.734 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0064ms
+2025-06-16 17:17:45.751 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - null null
+2025-06-16 17:17:45.751 -06:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-06-16 17:17:45.751 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:17:45.753 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-16 17:17:45.753 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - 200 628 image/png 2.4113ms
+2025-06-16 17:17:45.753 -06:00 [DBG] Connection ID "17654110591637258376" disconnecting.
+2025-06-16 17:17:46.583 -06:00 [INF] Received HTTP response headers after 906.1954ms - 200
+2025-06-16 17:17:46.583 -06:00 [INF] Received HTTP response headers after 910.6141ms - 200
+2025-06-16 17:17:46.583 -06:00 [INF] Received HTTP response headers after 906.3759ms - 200
+2025-06-16 17:17:46.589 -06:00 [INF] Received HTTP response headers after 916.5463ms - 200
+2025-06-16 17:17:46.590 -06:00 [INF] End processing HTTP request after 945.7068ms - 200
+2025-06-16 17:17:46.590 -06:00 [INF] End processing HTTP request after 945.8215ms - 200
+2025-06-16 17:17:46.590 -06:00 [INF] End processing HTTP request after 945.8147ms - 200
+2025-06-16 17:17:46.590 -06:00 [INF] End processing HTTP request after 945.8532ms - 200
+2025-06-16 17:17:46.593 -06:00 [INF] Received HTTP response headers after 920.2622ms - 200
+2025-06-16 17:17:46.593 -06:00 [INF] End processing HTTP request after 949.2568ms - 200
+2025-06-16 17:17:46.596 -06:00 [2025-06-16 17:22:00.564 -06:00 [INF] Iniciando la aplicación...
+2025-06-16 17:22:00.650 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-06-16 17:22:01.567 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-16 17:22:01.654 -06:00 [INF] Esperando mensajes de la cola...
+2025-06-16 17:22:01.687 -06:00 [DBG] Hosting starting
+2025-06-16 17:22:02.041 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-16 17:22:02.047 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-16 17:22:02.090 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-06-16 17:22:02.091 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-16 17:22:02.092 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-16 17:22:02.092 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-16 17:22:02.156 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-16 17:22:02.157 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-16 17:22:02.205 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-16 17:22:02.205 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-06-16 17:22:02.210 -06:00 [INF] 📩 Recibido: d261f4de154448ae9673415644990253
+2025-06-16 17:22:02.210 -06:00 [INF] 📩 Recibido: 2f603048695f41bd87f3464e8be8406b
+2025-06-16 17:22:02.210 -06:00 [INF] 📩 Recibido: ae5d6753bf444b48b21403c881aad8a4
+2025-06-16 17:22:02.210 -06:00 [INF] 📩 Recibido: 09a2872fc92f45b1bb5de0f60594bf31
+2025-06-16 17:22:02.210 -06:00 [INF] 📩 Recibido: ce0a3b95a2fd4699a343e7163056c0f3
+2025-06-16 17:22:02.358 -06:00 [DBG] Connection ID "18230571339645714554" disconnecting.
+2025-06-16 17:22:02.360 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 179.025ms
+2025-06-16 17:22:02.512 -06:00 [DBG] Connection ID "18086456130095022083" disconnecting.
+2025-06-16 17:22:02.519 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 340.647ms
+2025-06-16 17:22:02.584 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-06-16 17:22:02.617 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-16 17:22:02.618 -06:00 [INF] Hosting environment: Development
+2025-06-16 17:22:02.618 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-06-16 17:22:02.618 -06:00 [DBG] Hosting started
+2025-06-16 17:22:02.672 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-16 17:22:02.673 -06:00 [DBG] Request did not match any endpoints
+2025-06-16 17:22:02.852 -06:00 [DBG] Connection ID "18158513741312819236" disconnecting.
+2025-06-16 17:22:02.855 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 272.2399ms
+2025-06-16 17:22:03.001 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.001 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.001 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.001 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.001 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.022 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.022 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.022 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.022 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:03.022 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.081 -06:00 [INF] Received HTTP response headers after 1054.7935ms - 200
+2025-06-16 17:22:04.081 -06:00 [INF] Received HTTP response headers after 1054.778ms - 200
+2025-06-16 17:22:04.081 -06:00 [INF] Received HTTP response headers after 1054.6992ms - 200
+2025-06-16 17:22:04.081 -06:00 [INF] Received HTTP response headers after 1054.7809ms - 200
+2025-06-16 17:22:04.081 -06:00 [INF] Received HTTP response headers after 1054.9593ms - 200
+2025-06-16 17:22:04.088 -06:00 [INF] End processing HTTP request after 1093.6098ms - 200
+2025-06-16 17:22:04.088 -06:00 [INF] End processing HTTP request after 1093.7678ms - 200
+2025-06-16 17:22:04.088 -06:00 [INF] End processing HTTP request after 1093.8071ms - 200
+2025-06-16 17:22:04.088 -06:00 [INF] End processing HTTP request after 1093.6719ms - 200
+2025-06-16 17:22:04.088 -06:00 [INF] End processing HTTP request after 1093.799ms - 200
+2025-06-16 17:22:04.096 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:04.096 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:04.118 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.118 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.118 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.118 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.118 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.119 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.119 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.118 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.119 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.119 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:04.125 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:04.125 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:04.125 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:04.125 -06:00 [INF] ✅ Procesado correctamente: 2f603048695f41bd87f3464e8be8406b
+2025-06-16 17:22:04.125 -06:00 [INF] ✅ Procesado correctamente: 09a2872fc92f45b1bb5de0f60594bf31
+2025-06-16 17:22:04.125 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:04.125 -06:00 [INF] ✅ Procesado correctamente: ae5d6753bf444b48b21403c881aad8a4
+2025-06-16 17:22:04.125 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:04.125 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=4, Fallidos=0
+2025-06-16 17:22:04.125 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=3, Fallidos=0
+2025-06-16 17:22:04.125 -06:00 [INF] ✅ Procesado correctamente: d261f4de154448ae9673415644990253
+2025-06-16 17:22:04.125 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=4, Fallidos=0
+2025-06-16 17:22:04.125 -06:00 [INF] ✅ Procesado correctamente: ce0a3b95a2fd4699a343e7163056c0f3
+2025-06-16 17:22:04.125 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=5, Fallidos=0
+2025-06-16 17:22:04.125 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=5, Fallidos=0
+2025-06-16 17:22:04.126 -06:00 [INF] 📩 Recibido: 018446026acd4c54b6f19235d393f94f
+2025-06-16 17:22:04.126 -06:00 [INF] 📩 Recibido: ec85065ce0e24b3da8e530da48da482e
+2025-06-16 17:22:04.126 -06:00 [INF] 📩 Recibido: ed6858a9dc7140b7b791060505f9459a
+2025-06-16 17:22:04.126 -06:00 [INF] 📩 Recibido: 6c58f222630c418e99a519323c5d3b2b
+2025-06-16 17:22:04.126 -06:00 [INF] 📩 Recibido: 2200e641ad4a42f08943d2852c437332
+2025-06-16 17:22:04.225 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.225 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:04.226 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-16 17:22:05.101 -06:00 [INF] Received HTTP response headers after 875.4475ms - 200
+2025-06-16 17:22:05.102 -06:00 [INF] End processing HTTP request after 876.5399ms - 200
+2025-06-16 17:22:05.102 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:05.102 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:05.103 -06:00 [INF] Received HTTP response headers after 876.9171ms - 200
+2025-06-16 17:22:05.103 -06:00 [INF] End processing HTTP request after 877.7508ms - 200
+2025-06-16 17:22:05.103 -06:00 [INF] Received HTTP response headers after 876.982ms - 200
+2025-06-16 17:22:05.103 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:05.103 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:05.103 -06:00 [INF] End processing HTTP request after 877.6761ms - 200
+2025-06-16 17:22:05.104 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:05.104 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:05.104 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.104 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.105 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:05.105 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.105 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.105 -06:00 [INF] ✅ Procesado correctamente: 018446026acd4c54b6f19235d393f94f
+2025-06-16 17:22:05.105 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=6, Fallidos=0
+2025-06-16 17:22:05.105 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.105 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.105 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:05.106 -06:00 [INF] ✅ Procesado correctamente: ed6858a9dc7140b7b791060505f9459a
+2025-06-16 17:22:05.106 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=7, Fallidos=0
+2025-06-16 17:22:05.106 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:05.106 -06:00 [INF] ✅ Procesado correctamente: 6c58f222630c418e99a519323c5d3b2b
+2025-06-16 17:22:05.106 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=8, Fallidos=0
+2025-06-16 17:22:05.106 -06:00 [INF] Received HTTP response headers after 879.7474ms - 200
+2025-06-16 17:22:05.107 -06:00 [INF] Received HTTP response headers after 880.1559ms - 200
+2025-06-16 17:22:05.107 -06:00 [INF] End processing HTTP request after 880.6456ms - 200
+2025-06-16 17:22:05.107 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:05.107 -06:00 [INF] End processing HTTP request after 880.8489ms - 200
+2025-06-16 17:22:05.107 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:05.107 -06:00 [INF] [WhatsApp] Status: OK
+2025-06-16 17:22:05.107 -06:00 [ERR] [WhatsApp] Status: OK
+2025-06-16 17:22:05.109 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.109 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.109 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.109 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-16 17:22:05.109 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:05.109 -06:00 [INF] Proceso Exitoso
+2025-06-16 17:22:05.109 -06:00 [INF] ✅ Procesado correctamente: 2200e641ad4a42f08943d2852c437332
+2025-06-16 17:22:05.109 -06:00 [INF] ✅ Procesado correctamente: ec85065ce0e24b3da8e530da48da482e
+2025-06-16 17:22:05.109 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=10, Fallidos=0
+2025-06-16 17:22:05.109 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=10, Exitosos=10, Fallidos=0
+2025-06-16 17:27:01.377 -06:00 [DBG] HttpMessageHandler expired after 300000ms for client 'ConsumirApiWhats'
+2025-06-16 17:27:11.394 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:27:11.398 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1114ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:27:21.391 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:27:21.392 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:27:31.402 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:27:31.402 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:27:41.409 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:27:41.410 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0068ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:27:51.415 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:27:51.415 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:28:01.430 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:28:01.431 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:28:11.433 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:28:11.434 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0074ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:28:21.436 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:28:21.436 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0057ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:28:31.450 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:28:31.451 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0065ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:28:41.453 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:28:41.453 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0094ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:28:51.454 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:28:51.454 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:29:01.459 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:29:01.459 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0066ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:29:11.464 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:29:11.465 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:29:21.475 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:29:21.476 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0094ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:29:31.486 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:29:31.487 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0078ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:29:41.492 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:29:41.492 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0072ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:29:51.505 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:29:51.506 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0102ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:30:01.516 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:30:01.517 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0088ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:30:11.519 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:30:11.520 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:30:21.535 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:30:21.536 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0102ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:30:31.541 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:30:31.541 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0083ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:30:41.542 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:30:41.542 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0132ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:30:51.547 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:30:51.547 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0091ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:31:01.550 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:31:01.550 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0097ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:31:11.565 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:31:11.565 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1415ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:31:21.571 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:31:21.571 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:31:31.574 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:31:31.574 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:31:41.585 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:31:41.585 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:31:51.597 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:31:51.597 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:32:01.603 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:32:01.604 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1272ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:32:11.618 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:32:11.619 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:32:21.619 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:32:21.619 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:32:31.634 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:32:31.634 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:32:41.636 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:32:41.636 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:32:51.650 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:32:51.650 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:33:01.659 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:33:01.659 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:33:11.664 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:33:11.664 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:33:21.675 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:33:21.676 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:33:31.675 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:33:31.676 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:33:41.682 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:33:41.682 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:33:51.684 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:33:51.684 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:34:01.685 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:34:01.685 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:34:11.701 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:34:11.701 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:34:21.701 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:34:21.701 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:34:31.713 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:34:31.714 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:34:41.717 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:34:41.717 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:34:51.718 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:34:51.718 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:35:01.719 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:35:01.719 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0103ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:35:11.725 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:35:11.725 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:35:21.730 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:35:21.730 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0088ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:35:31.745 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:35:31.745 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:35:41.747 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:35:41.747 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:35:51.762 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:35:51.762 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:36:01.764 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:36:01.764 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:36:11.766 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:36:11.768 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.2513ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:36:21.772 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:36:21.772 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:36:31.778 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:36:31.779 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:36:41.782 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:36:41.782 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:36:51.794 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:36:51.794 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:37:01.800 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:37:01.800 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:37:11.817 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:37:11.817 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0077ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:37:21.828 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:37:21.828 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:37:31.842 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:37:31.843 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:37:41.854 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:37:41.854 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:37:51.854 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:37:51.855 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:38:01.866 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:38:01.867 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:38:11.877 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:38:11.877 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:38:21.878 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:38:21.878 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:38:31.883 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:38:31.883 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:38:41.898 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:38:41.898 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:38:51.898 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:38:51.898 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:39:01.913 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:39:01.913 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:39:11.917 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:39:11.917 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:39:21.917 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:39:21.917 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:39:31.917 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:39:31.917 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:39:41.917 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:39:41.917 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:39:51.925 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:39:51.926 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:40:01.932 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:40:01.932 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:40:11.933 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:40:11.933 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:40:21.949 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:40:21.949 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:40:31.959 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:40:31.959 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:40:41.963 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:40:41.963 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:40:51.967 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:40:51.967 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:41:01.978 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:41:01.978 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:41:11.985 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:41:11.985 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:41:22.000 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:41:22.000 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:41:32.010 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:41:32.010 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:41:42.023 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:41:42.023 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:41:52.024 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:41:52.025 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:42:02.029 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:42:02.029 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:42:12.032 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:42:12.032 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:42:22.046 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:42:22.046 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:42:32.055 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:42:32.055 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:42:42.061 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:42:42.061 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:42:52.062 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:42:52.062 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:43:02.065 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:43:02.065 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:43:12.073 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:43:12.073 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:43:22.084 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:43:22.084 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:43:32.100 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:43:32.100 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:43:42.116 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:43:42.116 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:43:52.128 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:43:52.128 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:44:02.128 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:44:02.128 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:44:12.130 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:44:12.130 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:44:22.133 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:44:22.133 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:44:32.140 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:44:32.140 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:44:42.148 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:44:42.149 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:44:52.149 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:44:52.149 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:45:02.163 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:45:02.163 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:45:12.167 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:45:12.167 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:45:22.175 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:45:22.175 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:45:32.176 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:45:32.176 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:45:42.176 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:45:42.176 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:45:52.189 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:45:52.189 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0007ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:46:02.201 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:46:02.201 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:46:12.210 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:46:12.210 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-06-16 17:46:22.215 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-16 17:46:22.215 -06:00 [DBG] Ending HttpMessageHandler clea

@@ -1,0 +1,70 @@
+2025-04-21 09:13:25.266 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-21 09:13:25.426 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 09:13:25.569 -06:00 [DBG] Hosting starting
+2025-04-21 09:13:25.796 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-21 09:13:25.803 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 09:13:25.857 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-04-21 09:13:25.861 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 09:13:25.921 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 09:13:25.921 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 09:13:25.947 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-21 09:13:25.947 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-21 09:13:25.990 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-21 09:13:25.990 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 09:13:26.086 -06:00 [DBG] Connection ID "18374686497656799235" disconnecting.
+2025-04-21 09:13:26.088 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 121.3146ms
+2025-04-21 09:13:26.204 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 09:13:26.205 -06:00 [INF] Hosting environment: Development
+2025-04-21 09:13:26.205 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-04-21 09:13:26.206 -06:00 [DBG] Hosting started
+2025-04-21 09:13:26.787 -06:00 [DBG] Connection ID "18230571313875910657" disconnecting.
+2025-04-21 09:13:26.788 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 824.3767ms
+2025-04-21 09:13:26.854 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-21 09:13:26.896 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 09:13:26.897 -06:00 [DBG] Request did not match any endpoints
+2025-04-21 09:13:26.925 -06:00 [DBG] Connection ID "18374686540606472193" disconnecting.
+2025-04-21 09:13:26.927 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.1613ms
+2025-04-21 09:13:46.588 -06:00 [ERR] Error al suscribirse a la cola AccesosFerCRM: A task was canceled.
+2025-04-21 09:16:04.860 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID Sin UUID: Algo paso en RecciveAccesos
+2025-04-21 09:22:28.811 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-21 09:22:31.635 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 09:22:31.765 -06:00 [DBG] Hosting starting
+2025-04-21 09:22:32.333 -06:00 [INF] Suscripción a la cola AccesosFerCRM completada.
+2025-04-21 09:22:36.443 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-21 09:22:36.475 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 09:22:36.526 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-04-21 09:22:36.527 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 09:22:36.528 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 09:22:36.530 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 09:22:36.558 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-21 09:22:36.559 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-21 09:22:36.586 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 09:22:36.586 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-21 09:22:36.688 -06:00 [INF] reciveAccesos.Message
+2025-04-21 09:22:36.689 -06:00 [DBG] Connection ID "18158513762787655681" disconnecting.
+2025-04-21 09:22:42.567 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 113.9264ms
+2025-04-21 09:22:49.743 -06:00 [DBG] Connection ID "18086456155864825861" disconnecting.
+2025-04-21 09:22:49.753 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13179.798ms
+2025-04-21 09:22:51.951 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-21 09:22:52.011 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 09:22:52.012 -06:00 [DBG] Request did not match any endpoints
+2025-04-21 09:22:52.067 -06:00 [INF] reciveAccesos.Message
+2025-04-21 09:22:58.005 -06:00 [INF] reciveAccesos.Message
+2025-04-21 09:23:00.539 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 09:23:00.574 -06:00 [INF] Hosting environment: Development
+2025-04-21 09:23:00.575 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-04-21 09:23:00.595 -06:00 [DBG] Hosting started
+2025-04-21 09:23:07.522 -06:00 [INF] reciveAccesos.Message
+2025-04-21 09:23:10.753 -06:00 [DBG] Connection ID "18374686506246733826" disconnecting.
+2025-04-21 09:23:10.756 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19795.8033ms
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:23:22.771 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:24:50.663 -06:00 [INF] reciveAccesos.Message
+2025-04-21 09:25:02.368 -06:00 [INF] Proceso Exitoso
+2025-04-21 09:25:06.317 -06:00 [INF] Proceso Exitoso

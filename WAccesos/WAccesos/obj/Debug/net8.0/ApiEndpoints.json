@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "WAccesos.Controllers.AccesosController",
+    "Method": "Post",
+    "RelativePath": "api/Accesos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Acceso",
+        "Type": "WAccesos.Models.AccesoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WAccesos.Models.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,394 @@
+2025-04-01 09:09:06.905 -06:00 [ERR] Error: IBus no está registrado correctamente.
+2025-04-01 09:09:06.989 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 09:09:07.279 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 09:09:07.624 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 09:09:07.624 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 09:09:07.734 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 139.8171ms
+2025-04-01 09:09:07.832 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 09:09:07.834 -06:00 [INF] Hosting environment: Development
+2025-04-01 09:09:07.834 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 09:09:08.342 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 750.1471ms
+2025-04-01 09:09:08.415 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 09:09:08.466 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.9114ms
+2025-04-01 09:12:59.313 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 09:12:59.664 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 09:12:59.800 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 09:12:59.800 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 09:12:59.889 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 104.4665ms
+2025-04-01 09:12:59.924 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 142.1492ms
+2025-04-01 09:12:59.985 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 09:12:59.987 -06:00 [INF] Hosting environment: Development
+2025-04-01 09:12:59.987 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 09:13:00.016 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 09:13:00.163 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 146.3942ms
+2025-04-01 09:30:16.642 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 09:30:17.186 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 09:30:17.399 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 09:30:17.400 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 09:30:17.502 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 120.8698ms
+2025-04-01 09:30:17.546 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 167.1479ms
+2025-04-01 09:30:17.627 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 09:30:17.629 -06:00 [INF] Hosting environment: Development
+2025-04-01 09:30:17.629 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 09:30:17.653 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 09:30:17.817 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.9324ms
+2025-04-01 09:52:22.726 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "f6b58f26ebc44f60ba9fb8f5a6ff53e4",
+  "Resource": {
+    "Id": "9db7bb5eb0ee4f61a9e32b39da662536",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 2,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "Fernando Gaitan Hernández",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-04-01 09:53:41.377 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID f6b58f26ebc44f60ba9fb8f5a6ff53e4: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 09:53:42.527 -06:00 [ERR] Error procesando mensaje f6b58f26ebc44f60ba9fb8f5a6ff53e4: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 09:53:52.093 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID f6b58f26ebc44f60ba9fb8f5a6ff53e4: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 09:53:57.559 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "f6b58f26ebc44f60ba9fb8f5a6ff53e4",
+  "Resource": {
+    "Id": "9db7bb5eb0ee4f61a9e32b39da662536",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 2,
+    "Mode": 1
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "Fernando Gaitan Hernández",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-04-01 09:54:00.219 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID f6b58f26ebc44f60ba9fb8f5a6ff53e4: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 09:54:00.255 -06:00 [ERR] Error procesando mensaje f6b58f26ebc44f60ba9fb8f5a6ff53e4: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 09:54:01.046 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID f6b58f26ebc44f60ba9fb8f5a6ff53e4: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 15:24:10.467 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 15:24:10.813 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 15:24:11.057 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger - null null
+2025-04-01 15:24:11.230 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 15:24:11.232 -06:00 [INF] Hosting environment: Development
+2025-04-01 15:24:11.232 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 15:24:11.360 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.html - null null
+2025-04-01 15:24:11.363 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger - 301 null null 321.5357ms
+2025-04-01 15:24:11.512 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.html - 200 null text/html;charset=utf-8 148.5029ms
+2025-04-01 15:24:11.561 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - null null
+2025-04-01 15:24:11.561 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.css - null null
+2025-04-01 15:24:11.561 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.js - null null
+2025-04-01 15:24:11.561 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-01 15:24:11.562 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - null null
+2025-04-01 15:24:11.572 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 15:24:11.582 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 15:24:11.583 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.js - 200 null application/javascript;charset=utf-8 22.0912ms
+2025-04-01 15:24:11.597 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 19.6178ms
+2025-04-01 15:24:11.614 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-01 15:24:11.615 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-04-01 15:24:11.615 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.css - 200 202 text/css 53.8707ms
+2025-04-01 15:24:11.617 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - 200 154948 text/css 56.0485ms
+2025-04-01 15:24:11.617 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-01 15:24:11.623 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 61.6927ms
+2025-04-01 15:24:11.639 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-01 15:24:11.649 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.813ms
+2025-04-01 15:24:11.682 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - 200 1466741 text/javascript 119.376ms
+2025-04-01 15:24:12.006 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 15:24:12.010 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - null null
+2025-04-01 15:24:12.011 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-01 15:24:12.012 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - 200 628 image/png 1.8379ms
+2025-04-01 15:24:12.017 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0386ms
+2025-04-01 15:24:37.816 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 15:24:38.184 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 15:24:38.350 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 15:24:38.350 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 15:24:38.456 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 125.4233ms
+2025-04-01 15:24:38.490 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.4075ms
+2025-04-01 15:24:38.562 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 15:24:38.563 -06:00 [INF] Hosting environment: Development
+2025-04-01 15:24:38.564 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 15:24:38.586 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 15:24:38.741 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.9762ms
+2025-04-01 15:51:56.640 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "4aa9588b6d8641f49627a59d8ff2ba64",
+  "Resource": {
+    "Id": "f3fbc8d5e1c84e3696053f5aaf19457a",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 0,
+    "Mode": 0,
+    "active": false
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "FERNANDO GAITAN HERNÁNDEZ",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-04-01 15:52:28.564 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 15:52:28.992 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 15:52:29.174 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 15:52:29.174 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 15:52:29.369 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 210.6511ms
+2025-04-01 15:52:29.415 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 260.4512ms
+2025-04-01 15:52:34.202 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 15:52:35.882 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "4aa9588b6d8641f49627a59d8ff2ba64",
+  "Resource": {
+    "Id": "f3fbc8d5e1c84e3696053f5aaf19457a",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 0,
+    "Mode": 0,
+    "active": false
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "FERNANDO GAITAN HERNÁNDEZ",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-04-01 15:52:46.731 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13711.1524ms
+2025-04-01 15:52:46.731 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 15:52:46.734 -06:00 [INF] Hosting environment: Development
+2025-04-01 15:52:46.734 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 15:53:04.683 -06:00 [ERR] Error ejecutando la consulta: UPDATE BITACORA_ACCESOS SET MENSAJE = @Mensaje, ESTATUS = 'PROCESO_ERRONEO' WHERE (DATOS = @Datos;
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ';'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:f48faf9a-f739-4d62-b8f3-4003353d5a00
+Error Number:102,State:1,Class:15
+2025-04-01 15:53:04.758 -06:00 [ERR] Error ejecutando la consulta: UPDATE BITACORA_ACCESOS SET MENSAJE = @Mensaje, ESTATUS = 'PROCESO_ERRONEO' WHERE (DATOS = @Datos;
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ';'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:f48faf9a-f739-4d62-b8f3-4003353d5a00
+Error Number:102,State:1,Class:15
+2025-04-01 15:53:04.762 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID 4aa9588b6d8641f49627a59d8ff2ba64: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 15:53:04.837 -06:00 [ERR] Error procesando mensaje 4aa9588b6d8641f49627a59d8ff2ba64: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 15:53:07.102 -06:00 [ERR] Error ejecutando la consulta: UPDATE BITACORA_ACCESOS SET MENSAJE = @Mensaje, ESTATUS = 'PROCESO_ERRONEO' WHERE (DATOS = @Datos;
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ';'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:f48faf9a-f739-4d62-b8f3-4003353d5a00
+Error Number:102,State:1,Class:15
+2025-04-01 15:53:07.104 -06:00 [ERR] Error ejecutando la consulta: UPDATE BITACORA_ACCESOS SET MENSAJE = @Mensaje, ESTATUS = 'PROCESO_ERRONEO' WHERE (DATOS = @Datos;
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ';'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.ExecuteAsync[T](Func`2 operation) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 24
+   at reciveAccesos.Models.ConexionSQL.EjecutarAsync(String query, Object parametros) in C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos\Models\ConexionSQL.cs:line 31
+ClientConnectionId:f48faf9a-f739-4d62-b8f3-4003353d5a00
+Error Number:102,State:1,Class:15
+2025-04-01 15:53:07.107 -06:00 [ERR] Error registrado en BITACORA_ACCESOS para UUID 4aa9588b6d8641f49627a59d8ff2ba64: Error al insertar en WEBHOOK_ACCESOS
+2025-04-01 16:21:56.284 -06:00 [INF] Conectando a RabbitMQ...
+2025-04-01 16:21:56.804 -06:00 [INF] Suscripción a la cola AccesosResultadosCRM completada.
+2025-04-01 16:21:56.966 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-01 16:21:56.966 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-04-01 16:21:57.087 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 136.7455ms
+2025-04-01 16:21:57.173 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 225.4466ms
+2025-04-01 16:21:57.232 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-04-01 16:21:57.252 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-01 16:21:57.254 -06:00 [INF] Hosting environment: Development
+2025-04-01 16:21:57.254 -06:00 [INF] Content root path: C:\Users\mhernandez\source\repos\reciveAccesos\reciveAccesos
+2025-04-01 16:21:57.433 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 201.6387ms
+2025-04-01 16:26:57.985 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "2f2d6ef4548f4e34b0adb68d98f8bebf",
+  "Resource": {
+    "Id": "f3fbc8d5e1c84e3696053f5aaf19457a",
+    "Name": "Programas Especiales USA",
+    "ExternalId": "2",
+    "StartHour": "16:30",
+    "EndHour": "21:00"
+  },
+  "AccessPoint": {
+    "Id": "488e75097265415b946f26951f51063b",
+    "Operation": 1,
+    "Mode": 2,
+    "active": false
+  },
+  "Credential": {
+    "Id": "7afec04bda1542b18b9d16500367c2b8",
+    "Beneficiary": {
+      "Id": "91cbaa8dc1cd4f3c9caf78b4c048adcd",
+      "Name": "FERNANDO GAITAN HERNÁNDEZ",
+      "ExternalId": "3435"
+    }
+  }
+}
+2025-04-01 16:31:09.007 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "2dc856bdfa124d2f805c5538a3d54f8e",
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "TEST_PROGRAMA_SOCIAL_MARLON_10/03/2025",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 3,
+    "Mode": 1,
+    "active": false
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}
+2025-04-01 16:32:52.032 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "1260e22fa87e4930a50f9088ad636cb4",
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "TEST_PROGRAMA_SOCIAL_MARLON_10/03/2025",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 3,
+    "Mode": 1,
+    "active": false
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}
+2025-04-01 17:00:10.187 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "be018904346449939c4da7d7c3c542d1",
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}
+2025-04-01 17:08:40.489 -06:00 [INF] Mensaje recibido: {
+  "Uuid": "8d77174c9565475780ece40706efef63",
+  "Resource": {
+    "Id": "019581ae-4718-7a29-b2b8-5d719553579f",
+    "Name": "",
+    "ExternalId": "7299",
+    "StartHour": "",
+    "EndHour": ""
+  },
+  "AccessPoint": {
+    "Id": "0195ce8f-806a-7da3-ab44-5d95d39a5c96",
+    "Operation": 3,
+    "Mode": 1,
+    "active": true
+  },
+  "Credential": {
+    "Id": "160aacea-2f43-46be-ab59-da7b5a59054f",
+    "Beneficiary": {
+      "Id": "ff2d5ba0-31e7-4794-b864-d01704eee92c",
+      "Name": "",
+      "ExternalId": "5599672"
+    }
+  }
+}

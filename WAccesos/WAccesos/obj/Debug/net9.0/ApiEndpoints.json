@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "WAccesos.Controllers.AccesosController",
+    "Method": "Post",
+    "RelativePath": "api/Accesos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Acceso",
+        "Type": "WAccesos.Models.AccesoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WAccesos.Models.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WAccesos.Controllers.LogsWAccesosController",
+    "Method": "GetLogs",
+    "RelativePath": "api/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

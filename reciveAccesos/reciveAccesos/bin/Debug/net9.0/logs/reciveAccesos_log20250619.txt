@@ -1,0 +1,182 @@
+2025-06-19 14:23:12.857 -06:00 [INF] Iniciando la aplicación...
+2025-06-19 14:23:12.973 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-06-19 14:23:14.387 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-19 14:23:14.418 -06:00 [INF] Esperando mensajes de la cola...
+2025-06-19 14:23:14.505 -06:00 [DBG] Hosting starting
+2025-06-19 14:23:14.732 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-19 14:23:14.738 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-19 14:23:14.750 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-06-19 14:23:14.751 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-19 14:23:14.751 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-19 14:23:14.751 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-19 14:23:14.800 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-19 14:23:14.800 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-19 14:23:14.851 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger - null null
+2025-06-19 14:23:15.017 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 14:23:15.018 -06:00 [INF] Hosting environment: Development
+2025-06-19 14:23:15.018 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-06-19 14:23:15.019 -06:00 [DBG] Hosting started
+2025-06-19 14:23:15.632 -06:00 [DBG] No candidates found for the request path '/swagger'
+2025-06-19 14:23:15.632 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:15.714 -06:00 [DBG] Connection ID "18374686489066864699" disconnecting.
+2025-06-19 14:23:15.717 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.html - null null
+2025-06-19 14:23:15.723 -06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-19 14:23:15.724 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:15.740 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger - 301 null null 888.286ms
+2025-06-19 14:23:15.857 -06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-06-19 14:23:15.860 -06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-19 14:23:15.878 -06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-06-19 14:23:15.879 -06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-19 14:23:15.880 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.html - 200 null text/html;charset=utf-8 162.2709ms
+2025-06-19 14:23:15.896 -06:00 [DBG] Connection ID "18374686501951766545" disconnecting.
+2025-06-19 14:23:15.942 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - null null
+2025-06-19 14:23:15.942 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-19 14:23:15.942 -06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-06-19 14:23:15.942 -06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-06-19 14:23:15.942 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:15.942 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:15.972 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.css - null null
+2025-06-19 14:23:15.973 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-06-19 14:23:15.973 -06:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2025-06-19 14:23:15.973 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:15.988 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - null null
+2025-06-19 14:23:16.022 -06:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-06-19 14:23:16.050 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:16.051 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 14:23:16.064 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/index.js - null null
+2025-06-19 14:23:16.064 -06:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-06-19 14:23:16.064 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:16.067 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.js - 200 null application/javascript;charset=utf-8 2.9818ms
+2025-06-19 14:23:16.074 -06:00 [DBG] Connection ID "18086456125800054785" disconnecting.
+2025-06-19 14:23:16.077 -06:00 [DBG] Connection ID "18014398531762126849" disconnecting.
+2025-06-19 14:23:16.079 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 25.8416ms
+2025-06-19 14:23:16.113 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-19 14:23:16.113 -06:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-06-19 14:23:16.113 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-19 14:23:16.114 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/index.css - 200 202 text/css 169.036ms
+2025-06-19 14:23:16.118 -06:00 [DBG] Connection ID "18374686501951766547" disconnecting.
+2025-06-19 14:23:16.119 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-19 14:23:16.125 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui.css - 200 154948 text/css 228.4217ms
+2025-06-19 14:23:16.149 -06:00 [DBG] Connection ID "18158513719837982721" disconnecting.
+2025-06-19 14:23:16.162 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 265.6052ms
+2025-06-19 14:23:16.182 -06:00 [DBG] Connection ID "18230571313875910657" disconnecting.
+2025-06-19 14:23:16.191 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/swagger-ui-bundle.js - 200 1466741 text/javascript 203.4106ms
+2025-06-19 14:23:16.192 -06:00 [DBG] Connection ID "17942340937724198913" disconnecting.
+2025-06-19 14:23:16.192 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.9416ms
+2025-06-19 14:23:16.522 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-06-19 14:23:16.522 -06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-19 14:23:16.522 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:16.535 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.8868ms
+2025-06-19 14:23:16.540 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - null null
+2025-06-19 14:23:16.540 -06:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-06-19 14:23:16.540 -06:00 [DBG] Request did not match any endpoints
+2025-06-19 14:23:16.541 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-19 14:23:16.541 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/swagger/favicon-32x32.png - 200 628 image/png 1.6452ms
+2025-06-19 14:23:16.542 -06:00 [DBG] Connection ID "18374686506246733876" disconnecting.
+2025-06-19 14:25:06.450 -06:00 [INF] 📩 Recibido: 6d4daa4f49b342da9c9ff53a65e03ce2
+2025-06-19 14:25:55.114 -06:00 [INF] Start processing HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-19 14:25:55.136 -06:00 [INF] Sending HTTP request POST http://192.168.17.163:3000/api/mensajes
+2025-06-19 14:25:55.343 -06:00 [INF] Received HTTP response headers after 202.6016ms - 200
+2025-06-19 14:25:55.350 -06:00 [INF] End processing HTTP request after 238.3197ms - 200
+2025-06-19 14:26:00.603 -06:00 [INF] [WhatsApp] Status: OK, Respuesta: {"status":"Exitoso","mensaje":"Mensaje Agregado","valid":true,"data":{"mensaje":"Hola buen día ROGER su ultima checada es el 2025-06-16 a las 16:10","fecha":"2025-06-19T15:25:55.395Z","id_grupo_numero":75,"id":160}}
+2025-06-19 14:26:02.088 -06:00 [INF] [WhatsApp] Status: OK, Respuesta: {"status":"Exitoso","mensaje":"Mensaje Agregado","valid":true,"data":{"mensaje":"Hola buen día ROGER su ultima checada es el 2025-06-16 a las 16:10","fecha":"2025-06-19T15:25:55.395Z","id_grupo_numero":75,"id":160}}
+2025-06-19 14:28:12.435 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-19 14:28:15.274 -06:00 [INF] Mensaje enviado a beneficiario
+2025-06-19 14:28:15.279 -06:00 [INF] Proceso Exitoso
+2025-06-19 14:28:15.279 -06:00 [INF] ✅ Procesado correctamente: 6d4daa4f49b342da9c9ff53a65e03ce2
+2025-06-19 14:28:15.279 -06:00 [INF] 📊 Resumen actual: TotalRecibidos=1, Exitosos=1, Fallidos=0
+2025-06-19 14:28:15.283 -06:00 [DBG] HttpMessageHandler expired after 300000ms for client 'ConsumirApiWhats'
+2025-06-19 14:28:25.292 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:28:25.297 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1125ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:28:35.298 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:28:35.299 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0064ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:28:45.311 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:28:45.311 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:28:55.317 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:28:55.317 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:29:05.321 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:29:05.322 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.007ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:29:15.324 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:29:15.324 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:29:25.335 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:29:25.336 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0091ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:29:35.352 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:29:35.352 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0062ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:29:45.355 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:29:45.355 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0073ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:29:55.376 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:29:55.376 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0071ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:30:05.388 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:30:05.389 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0074ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:30:15.402 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:30:15.402 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0077ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:30:25.405 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:30:25.405 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0075ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:30:35.416 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:30:35.416 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0064ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:30:45.421 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:30:45.422 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.007ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:30:55.423 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:30:55.423 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0088ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:31:05.425 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:31:05.426 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1388ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:31:15.428 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:31:15.428 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:31:25.437 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:31:25.437 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:31:35.438 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:31:35.438 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0071ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:31:45.443 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:31:45.443 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0108ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:31:55.456 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:31:55.457 -06:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0186ms - processed: 0 items - remaining: 1 items
+2025-06-19 14:32:05.459 -06:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-19 14:32:05.459 -06:00 [DBG] Ending HttpMessageHand2025-06-19 14:32:19.226 -06:00 [INF] Iniciando la aplicación...
+2025-06-19 14:32:19.315 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-06-19 14:32:20.264 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-19 14:32:20.334 -06:00 [INF] Esperando mensajes de la cola...
+2025-06-19 14:32:20.371 -06:00 [DBG] Hosting starting
+2025-06-19 14:32:20.557 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-19 14:32:20.562 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-19 14:32:20.603 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-06-19 14:32:20.605 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-19 14:32:20.605 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-19 14:32:20.605 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-19 14:32:20.642 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-19 14:32:20.643 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-19 14:32:20.676 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-06-19 14:32:20.676 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 14:32:20.793 -06:00 [DBG] Connection ID "18374686506246733879" disconnecting.
+2025-06-19 14:32:20.795 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 128.9393ms
+2025-06-19 14:32:20.844 -06:00 [DBG] Connection ID "17942340937724198917" disconnecting.
+2025-06-19 14:32:20.844 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 180.8143ms
+2025-06-19 14:32:20.930 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 14:32:20.932 -06:00 [INF] Hosting environment: Development
+2025-06-19 14:32:20.932 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-06-19 14:32:20.932 -06:00 [DBG] Hosting started
+2025-06-19 14:32:20.945 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-06-19 14:32:20.990 -06:00 [D2025-06-19 14:34:28.130 -06:00 [INF] Iniciando la aplicación...
+2025-06-19 14:34:28.217 -06:00 [INF] La aplicación se está ejecutando en modo interactivo (local/consola).
+2025-06-19 14:34:29.201 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-19 14:34:29.267 -06:00 [INF] Esperando mensajes de la cola...
+2025-06-19 14:34:29.307 -06:00 [DBG] Hosting starting
+2025-06-19 14:34:29.600 -06:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-19 14:34:29.606 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-19 14:34:29.644 -06:00 [DBG] Loaded hosting startup assembly reciveAccesos
+2025-06-19 14:34:29.646 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-19 14:34:29.646 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-19 14:34:29.646 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-19 14:34:29.681 -06:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-19 14:34:29.681 -06:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-06-19 14:34:29.714 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_vs/browserLink - null null
+2025-06-19 14:34:29.714 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 14:34:29.826 -06:00 [DBG] Connection ID "18086456104325218308" disconnecting.
+2025-06-19 14:34:29.829 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 126.6677ms
+2025-06-19 14:34:29.894 -06:00 [DBG] Connection ID "18302628920798740501" disconnecting.
+2025-06-19 14:34:29.895 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44319/_vs/browserLink - 200 null text/javascript; charset=UTF-8 196.2276ms
+2025-06-19 14:34:29.979 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44319/swagger/v1/swagger.json - null null
+2025-06-19 14:34:29.992 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 14:34:29.993 -06:00 [INF] Hosting environment: Development
+2025-06-19 14:34:29.993 -06:00 [INF] Content root path: C:\Users\mhernandez\Documents\WAccesos\reciveAccesos\reciveAccesos
+2025-06-19 14:34:29.993 -06:00 [DBG] Hosting started
+2025-06-19 14:34:30.023 -06:00 [D
