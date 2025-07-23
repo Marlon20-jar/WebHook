@@ -67,7 +67,7 @@ Si ocurre un error durante cualquiera de los pasos (validación, inserción en e
 
 ## 📱 Pantalla del Servidor Rabbit local publicado
 
-![Pantalla del exchange del RabbitMQ](images/RabbitMQ.JPG)
+![Pantalla del exchange del RabbitMQ](Images/RabbitMQ.JPG)
 
 ## TOKEN NECESARIO PARA PODER USAR ESTE WEB HOOK
 x-api-key: 17aqk3-h19f-jxa0-cb5c-bkdcm0q78sss
